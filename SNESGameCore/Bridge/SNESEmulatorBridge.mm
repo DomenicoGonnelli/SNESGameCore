@@ -21,14 +21,14 @@
 #include <sys/time.h>
 
 // DeltaCore
-#import <SNESDeltaCore/SNESDeltaCore.h>
-#import <DeltaCore/DeltaCore.h>
-#import <DeltaCore/DeltaCore-Swift.h>
+#import <SNESGameCore/SNESGameCore.h>
+#import <GameCore/GameCore.h>
+#import <GameCore/GameCore-Swift.h>
 
 #if STATIC_LIBRARY
 #import "SNESDeltaCore-Swift.h"
 #else
-#import <SNESDeltaCore/SNESDeltaCore-Swift.h>
+#import <SNESGameCore/SNESGameCore-Swift.h>
 #endif
 
 class ConfigFile;

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Riley Testut. All rights reserved.
 //
 
-#import <DeltaCore/DeltaTypes.h>
+#import <GameCore/DeltaTypes.h>
 
 // Extensible Enums
 FOUNDATION_EXPORT GameType const GameTypeSNES NS_SWIFT_NAME(snes);

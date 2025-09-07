@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF02F6FE1D300B4A0000D872 /* Standard.deltaskin in Resources */ = {isa = PBXBuildFile; fileRef = BF02F6FD1D300B4A0000D872 /* Standard.deltaskin */; };
+		BF02F6FE1D300B4A0000D872 /* Standard.dgskin in Resources */ = {isa = PBXBuildFile; fileRef = BF02F6FD1D300B4A0000D872 /* Standard.dgskin */; };
 		BF3F86B11F40F9150095F38A /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */; };
 		BF69FBCD23E3AB110051BEEA /* SNESTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BF69FBCB23E3AB110051BEEA /* SNESTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF69FBCE23E3AB110051BEEA /* SNESTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = BF69FBCC23E3AB110051BEEA /* SNESTypes.m */; };
@@ -84,7 +84,7 @@
 		BF6D1D561EB3F82100476805 /* smp_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6D1D391EB3F82100476805 /* smp_state.cpp */; };
 		BF6D1D5D1EB403D600476805 /* libSnes9x.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6D1BDC1EB3F73200476805 /* libSnes9x.a */; };
 		BF785C9F1B603C2C00189DB8 /* SNES.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF785C9E1B603C2C00189DB8 /* SNES.swift */; };
-		BF9F4FE21AAD8070004C9500 /* SNESDeltaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9F4FE11AAD8070004C9500 /* SNESDeltaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9F4FE21AAD8070004C9500 /* SNESGameCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9F4FE11AAD8070004C9500 /* SNESGameCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFC800351BA4C8DB00824180 /* SNESEmulatorBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC800331BA4C8DB00824180 /* SNESEmulatorBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFC800361BA4C8DB00824180 /* SNESEmulatorBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC800341BA4C8DB00824180 /* SNESEmulatorBridge.mm */; };
 		BFFDF03523E3B9DC00931B96 /* DeltaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFDF03423E3B9DC00931B96 /* DeltaCore.framework */; };
@@ -127,7 +127,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF02F6FD1D300B4A0000D872 /* Standard.deltaskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.deltaskin; path = "Controller Skin/Standard.deltaskin"; sourceTree = "<group>"; };
+		BF02F6FD1D300B4A0000D872 /* Standard.dgskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.dgskin; path = "Controller Skin/Standard.dgskin"; sourceTree = "<group>"; };
 		BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
 		BF69FBCB23E3AB110051BEEA /* SNESTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNESTypes.h; sourceTree = "<group>"; };
 		BF69FBCC23E3AB110051BEEA /* SNESTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNESTypes.m; sourceTree = "<group>"; };
@@ -325,9 +325,9 @@
 		BF6D1D3A1EB3F82100476805 /* timing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timing.cpp; sourceTree = "<group>"; };
 		BF6D1D3C1EB3F82100476805 /* snes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = snes.hpp; sourceTree = "<group>"; };
 		BF785C9E1B603C2C00189DB8 /* SNES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNES.swift; sourceTree = "<group>"; };
-		BF9F4FDC1AAD8070004C9500 /* SNESDeltaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNESDeltaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9F4FDC1AAD8070004C9500 /* SNESGameCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNESGameCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9F4FE01AAD8070004C9500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF9F4FE11AAD8070004C9500 /* SNESDeltaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNESDeltaCore.h; sourceTree = "<group>"; };
+		BF9F4FE11AAD8070004C9500 /* SNESGameCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNESGameCore.h; sourceTree = "<group>"; };
 		BFC800331BA4C8DB00824180 /* SNESEmulatorBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNESEmulatorBridge.h; sourceTree = "<group>"; };
 		BFC800341BA4C8DB00824180 /* SNESEmulatorBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SNESEmulatorBridge.mm; sourceTree = "<group>"; };
 		BFFDF03423E3B9DC00931B96 /* DeltaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DeltaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -640,7 +640,7 @@
 		BF9F4FD21AAD8070004C9500 = {
 			isa = PBXGroup;
 			children = (
-				BF9F4FDE1AAD8070004C9500 /* SNESDeltaCore */,
+				BF9F4FDE1AAD8070004C9500 /* SNESGameCore */,
 				BF6D1BDD1EB3F73200476805 /* libSnes9x */,
 				D59D6C202E29A4B600DBAF5B /* Dependencies */,
 				BF9F4FDD1AAD8070004C9500 /* Products */,
@@ -651,29 +651,29 @@
 		BF9F4FDD1AAD8070004C9500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF9F4FDC1AAD8070004C9500 /* SNESDeltaCore.framework */,
+				BF9F4FDC1AAD8070004C9500 /* SNESGameCore.framework */,
 				BF6D1BDC1EB3F73200476805 /* libSnes9x.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF9F4FDE1AAD8070004C9500 /* SNESDeltaCore */ = {
+		BF9F4FDE1AAD8070004C9500 /* SNESGameCore */ = {
 			isa = PBXGroup;
 			children = (
-				BF9F4FE11AAD8070004C9500 /* SNESDeltaCore.h */,
+				BF9F4FE11AAD8070004C9500 /* SNESGameCore.h */,
 				BF785C9E1B603C2C00189DB8 /* SNES.swift */,
 				BF69FBCA23E3AB050051BEEA /* Types */,
 				BFC800321BA4C89F00824180 /* Bridge */,
 				BF9F4FDF1AAD8070004C9500 /* Supporting Files */,
 			);
-			path = SNESDeltaCore;
+			path = SNESGameCore;
 			sourceTree = "<group>";
 		};
 		BF9F4FDF1AAD8070004C9500 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				BF9F4FE01AAD8070004C9500 /* Info.plist */,
-				BF02F6FD1D300B4A0000D872 /* Standard.deltaskin */,
+				BF02F6FD1D300B4A0000D872 /* Standard.dgskin */,
 				BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */,
 			);
 			name = "Supporting Files";
@@ -720,7 +720,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF69FBCD23E3AB110051BEEA /* SNESTypes.h in Headers */,
-				BF9F4FE21AAD8070004C9500 /* SNESDeltaCore.h in Headers */,
+				BF9F4FE21AAD8070004C9500 /* SNESGameCore.h in Headers */,
 				BFC800351BA4C8DB00824180 /* SNESEmulatorBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,9 +745,9 @@
 			productReference = BF6D1BDC1EB3F73200476805 /* libSnes9x.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BF9F4FDB1AAD8070004C9500 /* SNESDeltaCore */ = {
+		BF9F4FDB1AAD8070004C9500 /* SNESGameCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF9F4FF21AAD8070004C9500 /* Build configuration list for PBXNativeTarget "SNESDeltaCore" */;
+			buildConfigurationList = BF9F4FF21AAD8070004C9500 /* Build configuration list for PBXNativeTarget "SNESGameCore" */;
 			buildPhases = (
 				BF9F4FD71AAD8070004C9500 /* Sources */,
 				BF9F4FD81AAD8070004C9500 /* Frameworks */,
@@ -760,9 +760,9 @@
 				D5B44BA72E29A5FD00EA8B6C /* PBXTargetDependency */,
 				BF6D1D5C1EB403BB00476805 /* PBXTargetDependency */,
 			);
-			name = SNESDeltaCore;
+			name = SNESGameCore;
 			productName = SNESDeltaCore;
-			productReference = BF9F4FDC1AAD8070004C9500 /* SNESDeltaCore.framework */;
+			productReference = BF9F4FDC1AAD8070004C9500 /* SNESGameCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -786,7 +786,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF9F4FD61AAD8070004C9500 /* Build configuration list for PBXProject "SNESDeltaCore" */;
+			buildConfigurationList = BF9F4FD61AAD8070004C9500 /* Build configuration list for PBXProject "SNESGameCore" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -806,7 +806,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				BF9F4FDB1AAD8070004C9500 /* SNESDeltaCore */,
+				BF9F4FDB1AAD8070004C9500 /* SNESGameCore */,
 				BF6D1BDB1EB3F73200476805 /* libSnes9x */,
 			);
 		};
@@ -828,7 +828,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3F86B11F40F9150095F38A /* Standard.deltamapping in Resources */,
-				BF02F6FE1D300B4A0000D872 /* Standard.deltaskin in Resources */,
+				BF02F6FE1D300B4A0000D872 /* Standard.dgskin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1032,7 +1032,6 @@
 					"-DHAVE_STDINT_H",
 					"-DARM",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1099,7 +1098,6 @@
 					"-DHAVE_STDINT_H",
 					"-DARM",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1120,10 +1118,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = SNESDeltaCore/Info.plist;
+				INFOPLIST_FILE = SNESGameCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = SNESDeltaCore;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.domenico.gonnelli.core.snes;
+				PRODUCT_NAME = SNESGameCore;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
@@ -1140,10 +1139,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = SNESDeltaCore/Info.plist;
+				INFOPLIST_FILE = SNESGameCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = SNESDeltaCore;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.domenico.gonnelli.core.snes;
+				PRODUCT_NAME = SNESGameCore;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
@@ -1163,7 +1163,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF9F4FD61AAD8070004C9500 /* Build configuration list for PBXProject "SNESDeltaCore" */ = {
+		BF9F4FD61AAD8070004C9500 /* Build configuration list for PBXProject "SNESGameCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF9F4FF01AAD8070004C9500 /* Debug */,
@@ -1172,7 +1172,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF9F4FF21AAD8070004C9500 /* Build configuration list for PBXNativeTarget "SNESDeltaCore" */ = {
+		BF9F4FF21AAD8070004C9500 /* Build configuration list for PBXNativeTarget "SNESGameCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF9F4FF31AAD8070004C9500 /* Debug */,

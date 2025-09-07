@@ -9,7 +9,7 @@
 import Foundation
 import AVFoundation
 
-import DeltaCore
+import GameCore
 
 @objc public enum SNESGameInput: Int, Input
 {
