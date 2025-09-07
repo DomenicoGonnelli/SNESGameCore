@@ -2,7 +2,7 @@
 //  SNESTypes.m
 //  SNESDeltaCore
 //
-//  Created by Riley Testut on 7/8/16.
+//  Created by Darlion on 7/8/16.
 //  Copyright © 2020 Riley Testut. All rights reserved.
 //
 
