@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF02F6FE1D300B4A0000D872 /* Standard.dgskin in Resources */ = {isa = PBXBuildFile; fileRef = BF02F6FD1D300B4A0000D872 /* Standard.dgskin */; };
-		BF3F86B11F40F9150095F38A /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */; };
+		BF3F86B11F40F9150095F38A /* Standard.dgmapping in Resources */ = {isa = PBXBuildFile; fileRef = BF3F86B01F40F7FB0095F38A /* Standard.dgmapping */; };
 		BF69FBCD23E3AB110051BEEA /* SNESTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BF69FBCB23E3AB110051BEEA /* SNESTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF69FBCE23E3AB110051BEEA /* SNESTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = BF69FBCC23E3AB110051BEEA /* SNESTypes.m */; };
 		BF6D1CAE1EB3F75900476805 /* apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6D1BE71EB3F75900476805 /* apu.cpp */; };
@@ -128,7 +128,7 @@
 
 /* Begin PBXFileReference section */
 		BF02F6FD1D300B4A0000D872 /* Standard.dgskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.dgskin; path = "Controller Skin/Standard.dgskin"; sourceTree = "<group>"; };
-		BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
+		BF3F86B01F40F7FB0095F38A /* Standard.dgmapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.dgmapping; sourceTree = "<group>"; };
 		BF69FBCB23E3AB110051BEEA /* SNESTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNESTypes.h; sourceTree = "<group>"; };
 		BF69FBCC23E3AB110051BEEA /* SNESTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNESTypes.m; sourceTree = "<group>"; };
 		BF6D1BDC1EB3F73200476805 /* libSnes9x.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSnes9x.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -674,7 +674,7 @@
 			children = (
 				BF9F4FE01AAD8070004C9500 /* Info.plist */,
 				BF02F6FD1D300B4A0000D872 /* Standard.dgskin */,
-				BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */,
+				BF3F86B01F40F7FB0095F38A /* Standard.dgmapping */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -827,7 +827,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3F86B11F40F9150095F38A /* Standard.deltamapping in Resources */,
+				BF3F86B11F40F9150095F38A /* Standard.dgmapping in Resources */,
 				BF02F6FE1D300B4A0000D872 /* Standard.dgskin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
