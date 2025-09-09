@@ -35,7 +35,7 @@ public struct SNES: DeltaCoreProtocol
 {
     public static let core = SNES()
     
-    public var name: String { "SNESDeltaCore" }
+    public var name: String { "SNESGameCore" }
     public var identifier: String { "com.rileytestut.SNESDeltaCore" }
     
     public var gameType: GameType { GameType.snes }
