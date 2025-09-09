@@ -56,4 +56,7 @@ public struct SNES: DeltaCoreProtocol
     private init()
     {
     }
+    
+    public var skinName: String { "Standard" }
+    public var mappingName: String { "Standard" }
 }
